@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passwörter Anzeigen!</title>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <div class="passwort-behaelter">
+            <input name="passwort" id="passwort" type="password"
+            class="passwort-feld" placeholder="Passwort">
+            <a role="button" class="passwort-button"
+            onclick="passwortSichtbarkeitUmschalten('passwort')">
+                <i class="far fa-eye passwort-anzeigen-icon"></i>
+                <i class="far fa-eye-slash passwort-verstecken-icon"></i>
+            </a>
+        </div>
+    </form>
+    <script src="main.js"></script>
+</body>
+</html>
